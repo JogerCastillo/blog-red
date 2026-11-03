@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar sin que se caiga · Bitácora de un aprendiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <article class="entrada">
+            <h1>Publicar algo en internet sin que se caiga a los dos días</h1>
+            <p class="meta">10 de abril, 2026 · 3 min de lectura</p>
+
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80" alt="Conexiones luminosas sobre un fondo oscuro que simulan una red global">
+
+            <p>El primer obstáculo no fue escribir el código, sino entender cómo hacer que otra persona lo viera sin que yo tuviera que prestarle mi computador. Ahí entré al mundo de los sitios estáticos, que suena complicado pero no lo es tanto: básicamente son archivos HTML y CSS que viven en un servidor y se muestran tal cual, sin una base de datos ni un lenguaje de servidor de por medio.</p>
+
+            <p>Probé dos caminos. El primero fue GitHub Pages, que es gratis y se conecta directamente con un repositorio. La ventaja es que uno sube los archivos y la plataforma los publica sola. La desventaja, al menos para mí, fue que al principio no entendía por qué la página se veía sin estilos: había puesto la ruta del CSS como <code>/style.css</code> con una barra al inicio, y GitHub Pages la interpretaba como si estuviera en la raíz del dominio en lugar de en la carpeta del proyecto. Lo arreglé cambiándola a <code>style.css</code>, sin la barra. Ese detalle me tomó una tarde entera y ahora me parece obvio.</p>
+
+            <p>El segundo camino fue Netlify, que también tiene un plan gratuito y permite arrastrar la carpeta del proyecto directamente en el navegador. Para alguien que está empezando, esa inmediatez es valiosa: no hay que pelear con la terminal ni con configuraciones de compilación. Al final me quedé con GitHub Pages porque quería practicar el flujo de trabajo con repositorios, pero reconozco que Netlify es más amable para el primer intento.</p>
+
+            <p>Lo que aprendí de todo esto es que publicar no es el paso final, sino parte del proceso. Un blog que solo existe en el computador de uno no es un blog: es un archivo. La gracia está en soltarlo, verlo en un dominio real, y aceptar que siempre va a haber algo que ajustar.</p>
+
+            <a href="index.html" class="volver">← Volver al inicio</a>
+        </article>
+    </div>
+</body>
+</html>

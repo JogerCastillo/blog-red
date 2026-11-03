@@ -1,0 +1,14 @@
+# Bitácora de un aprendiz
+
+Blog estático de tres entradas, hecho con HTML y CSS puros como parte de la actividad de la asignatura Desarrollo de aplicaciones en RED.
+
+## Estructura
+- `index.html`: página principal con la lista de entradas.
+- `entrada1.html`, `entrada2.html`, `entrada3.html`: cada entrada completa.
+- `style.css`: hoja de estilos compartida.
+
+## Cómo verlo localmente
+Abrir `index.html` en cualquier navegador. No requiere servidor ni instalación.
+
+## Cómo publicarlo
+Subir la carpeta a un repositorio de GitHub y activar GitHub Pages desde Settings → Pages, seleccionando la rama principal y la carpeta raíz. En unos minutos el blog queda disponible en `https://tu-usuario.github.io/nombre-del-repo/`.

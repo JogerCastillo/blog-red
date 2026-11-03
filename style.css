@@ -1,0 +1,139 @@
+/* ===== BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7;
+    color: #2c2c2c;
+    background-color: #fafafa;
+    padding: 0 20px;
+}
+
+/* ===== CONTENEDOR ===== */
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px 35px;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+/* ===== ENCABEZADO ===== */
+header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #1a1a1a;
+}
+
+header p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* ===== LISTA DE ENTRADAS (HOME) ===== */
+.lista-entradas {
+    list-style: none;
+}
+
+.lista-entradas li {
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.lista-entradas li:last-child {
+    border-bottom: none;
+}
+
+.lista-entradas h2 {
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.lista-entradas h2 a {
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: color 0.2s;
+}
+
+.lista-entradas h2 a:hover {
+    color: #3b6ea5;
+}
+
+.lista-entradas .fecha {
+    font-size: 0.82rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.lista-entradas .extracto {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 6px;
+}
+
+/* ===== PÁGINA DE ENTRADA ===== */
+.entrada h1 {
+    font-size: 1.7rem;
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+
+.entrada .meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 22px;
+}
+
+.entrada img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 18px 0;
+}
+
+.entrada p {
+    margin-bottom: 16px;
+    font-size: 1.02rem;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #3b6ea5;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.volver:hover {
+    border-bottom-color: #3b6ea5;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px 18px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    .entrada h1 {
+        font-size: 1.35rem;
+    }
+}
